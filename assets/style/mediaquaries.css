@@ -17,6 +17,7 @@ XX-Large devices (larger desktops, 1400px and up)
 /*hero section*/
 
 @media (min-width: 992px) {
+  /*hero section*/
   .form-hero {
     width: 938px;
   }
@@ -31,24 +32,29 @@ XX-Large devices (larger desktops, 1400px and up)
     left: 20%;
   }
 
-  .star-wrapper-one{
+  .star-wrapper-one {
     top: -35%;
-    right: 20%;   
+    right: 20%;
   }
-  .star-wrapper-two{
+  .star-wrapper-two {
     top: -32%;
-    right: 22%;    
+    right: 22%;
   }
-  .star-wrapper-three{
+  .star-wrapper-three {
     top: -26%;
-    left: 74%;    
+    left: 74%;
   }
-  .star-wrapper-four{
+  .star-wrapper-four {
     top: -29%;
-    right: 16%;  
+    right: 16%;
   }
-  .star-wrapper-five{
+  .star-wrapper-five {
     top: -33%;
-    left: 80%;   
+    left: 80%;
+  }
+
+  /*Last Comments Section*/
+  .product-card-name-wrapper {
+    border-right: none;
   }
 }

@@ -11,6 +11,10 @@ body {
   background-color: #695de9;
 }
 
+.bg-color-purple{
+  background-color: #A666FF;
+}
+
 .bg-color-gray-light {
   background-color: #F2F2F2;
 }
@@ -19,9 +23,11 @@ body {
   background-color: #f5f4f2;
 }
 .bg-orange{
-  background-color: #FF5900;
+  background-color: #FF6821;
 }
-
+.bg-orange-two{
+  background-color: #FF6000;
+}
 
 
 /*height width*/
@@ -68,7 +74,7 @@ body {
 
 /*font sizes*/
 .fs-10-px {
-  font-size: 0.75rem; /* 10px */
+  font-size: 0.65rem; /* 10px */
 }
 .fs-12-px {
   font-size: 0.75rem; /* 12px */
@@ -213,4 +219,10 @@ body {
   left: 18%;
   opacity: .2;
   color: #ffff;
+}
+
+/*Last Comments Section*/
+
+.product-card-name-wrapper{
+border-right: 1px solid #dddd;
 }
