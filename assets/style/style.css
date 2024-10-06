@@ -1,0 +1,216 @@
+/*Google Font*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Poppins", system-ui;
+}
+
+/*bacground color*/
+.bg-color-lavender-purple {
+  background-color: #695de9;
+}
+
+.bg-color-gray-light {
+  background-color: #F2F2F2;
+}
+
+.bg-color-gray-lightest {
+  background-color: #f5f4f2;
+}
+.bg-orange{
+  background-color: #FF5900;
+}
+
+
+
+/*height width*/
+
+.w-35-px {
+  width: 35px;
+}
+
+.h-35-px {
+  height: 35px;
+}
+
+.w-45-px {
+  width: 45px;
+}
+
+.h-45-px {
+  height: 45px;
+}
+
+.w-50-px {
+  width: 50px;
+}
+
+.h-75-px {
+  height: 75px;
+}
+
+.w-55-px {
+  width: 55px;
+}
+
+.h-55-px {
+  height: 55px;
+}
+
+.h-800-px {
+  height: 800px;
+}
+
+.h-717-px {
+  height: 717px;
+}
+
+/*font sizes*/
+.fs-10-px {
+  font-size: 0.75rem; /* 10px */
+}
+.fs-12-px {
+  font-size: 0.75rem; /* 12px */
+}
+
+.fs-14-px {
+  font-size: 0.875rem; /* 14px */
+}
+.fs-26-px {
+  font-size: 1.625rem; /* 26px */
+}
+
+.fs-32-px {
+  font-size: 2rem; /* 32px */
+}
+
+
+.fs-48-px {
+  font-size: 3rem; /* 48px */
+}
+
+.fs-72-px {
+  font-size: 4.5rem; /* 72px */
+}
+
+/*margin and padding*/
+.pt-7-rem {
+  padding-top: 7rem;
+}
+/*general definitions */
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.nav-item {
+  transition: 500ms all ease !important;
+}
+.nav-item:hover a {
+  color: #0dcaf0 !important;
+}
+.nav-item:hover i {
+  color: #0dcaf0 !important;
+}
+
+.border-bottom-left-right {
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+
+.box-shadow-bottom-left-right {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 10px 10px 10px -5px,
+    rgba(0, 0, 0, 0.04) -10px 10px 10px -5px;
+}
+.box-shadow-default{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box-shadow-inside{
+  box-shadow: 
+  inset 3px 3px 6px rgb(220, 220, 220),
+  inset -3px -3px 6px rgba(255, 255, 255, 0.5),
+  inset 3px -3px 6px rgb(220, 220, 220),
+  inset -3px 3px 6px rgba(255, 255, 255, 0.5);
+
+}
+
+/*Hero Section*/
+.form-hero {
+  width: 100%;
+  height: 78px;
+}
+
+.form-hero::placeholder {
+  font-size: 1.25rem;
+  color: #adb5bd;
+  font-weight: 200;
+}
+
+.hero-girl {
+  top: -6rem;
+  right: -1rem;
+}
+
+.comments-bottom-dots-one {
+  top: 1rem;
+  left: -6rem;
+}
+
+.comments-bottom-dots-two {
+  top: -7rem;
+  right: 19rem;
+}
+
+.comments-bottom-dots-three {
+  top: 71%;
+  left: 20%;
+}
+
+.comments-bottom-dots-four {
+  top: 40%;
+  left: 55%;
+}
+
+.comments-bottom-dots-five {
+  top: -12%;
+  right: 7%;
+}
+
+.search-button-wrapper {
+  top: 87%;
+  right: 3%;
+}
+
+.star-wrapper-one{
+  top: 35%;
+  right: 40%;
+  opacity: .2;
+  color: #ffff;
+}
+.star-wrapper-two{
+  top: 50%;
+  right: 32%;
+  opacity: .2;
+  color: #ffff;
+}
+.star-wrapper-three{
+  top: 66%;
+  left: 24%;
+  opacity: .2;
+  color: #ffff;
+}
+.star-wrapper-four{
+  top: 79%;
+  right: 16%;
+  opacity: .2;
+  color: #ffff;
+}
+.star-wrapper-five{
+  top: 13%;
+  left: 18%;
+  opacity: .2;
+  color: #ffff;
+}
