@@ -57,4 +57,17 @@ XX-Large devices (larger desktops, 1400px and up)
   .product-card-name-wrapper {
     border-right: none;
   }
+
+  /*Trends seciton*/
+  .img-product-custom{
+    width: 100px;
+    height: 100px;
+  }
+
+  .custom-text-one{
+    font-size: 20px;
+  }
+  .custom-text-two{
+    font-size: 17px;
+  }
 }

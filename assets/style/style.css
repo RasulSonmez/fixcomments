@@ -11,25 +11,43 @@ body {
   background-color: #695de9;
 }
 
-.bg-color-purple{
-  background-color: #A666FF;
+.bg-color-purple {
+  background-color: #a666ff;
 }
 
 .bg-color-gray-light {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .bg-color-gray-lightest {
   background-color: #f5f4f2;
 }
-.bg-orange{
-  background-color: #FF6821;
+.bg-orange {
+  background-color: #ff6821;
 }
-.bg-orange-two{
-  background-color: #FF6000;
+.bg-orange-two {
+  background-color: #ff6000;
 }
 
+/*colors*/
+.color-green {
+  color: #00ff1e;
+}
+.color-green-dark {
+  color: #008f11;
+}
 
+.color-primary {
+  color: #695de9;
+}
+
+.color-orange {
+  color: #ff5900;
+}
+
+.color-dark {
+  color: #171616;
+}
 /*height width*/
 
 .w-35-px {
@@ -72,6 +90,10 @@ body {
   height: 717px;
 }
 
+.w-950-px {
+  width: 950px;
+}
+
 /*font sizes*/
 .fs-10-px {
   font-size: 0.65rem; /* 10px */
@@ -83,6 +105,11 @@ body {
 .fs-14-px {
   font-size: 0.875rem; /* 14px */
 }
+
+.fs-18-px {
+  font-size: 1.125; /* 18px */
+}
+
 .fs-26-px {
   font-size: 1.625rem; /* 26px */
 }
@@ -90,7 +117,6 @@ body {
 .fs-32-px {
   font-size: 2rem; /* 32px */
 }
-
 
 .fs-48-px {
   font-size: 3rem; /* 48px */
@@ -101,9 +127,11 @@ body {
 }
 
 /*margin and padding*/
+
 .pt-7-rem {
   padding-top: 7rem;
 }
+
 /*general definitions */
 
 .cursor-pointer {
@@ -130,17 +158,79 @@ body {
     rgba(0, 0, 0, 0.04) 10px 10px 10px -5px,
     rgba(0, 0, 0, 0.04) -10px 10px 10px -5px;
 }
-.box-shadow-default{
+.box-shadow-default {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+.box-shadow-right {
+  box-shadow: rgba(100, 100, 111, 0.2) 7px 0px 29px 0px;
+}
 
-.box-shadow-inside{
-  box-shadow: 
-  inset 3px 3px 6px rgb(220, 220, 220),
-  inset -3px -3px 6px rgba(255, 255, 255, 0.5),
-  inset 3px -3px 6px rgb(220, 220, 220),
-  inset -3px 3px 6px rgba(255, 255, 255, 0.5);
+.box-shadow-inside {
+  box-shadow: inset 3px 3px 6px rgb(220, 220, 220),
+    inset -3px -3px 6px rgba(255, 255, 255, 0.5),
+    inset 3px -3px 6px rgb(220, 220, 220),
+    inset -3px 3px 6px rgba(255, 255, 255, 0.5);
+}
 
+.select-default {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-image: none;
+  width: 100%;
+  height: 72px;
+  border: 1px solid #dddd;
+  border-radius: 1rem;
+}
+
+.select-default-icon {
+  right: 4%;
+  top: 35%;
+}
+.custom-radio .form-check-input {
+  display: none;
+}
+
+.custom-radio .form-check-input + label {
+  position: relative;
+  display: inline-block;
+  padding-left: 1.5em;
+  margin-right: 2em;
+  cursor: pointer;
+  line-height: 1.2em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.custom-radio .form-check-input + label:before,
+.custom-radio .form-check-input + label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.2em;
+  height: 1.2em;
+  text-align: center;
+  color: white;
+  border: 1px solid #ff5900;
+  font-family: Times;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.custom-radio .form-check-input + label:before {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 0 0 0.2em white, inset 0 0 0 1em white;
+}
+.custom-radio .form-check-input + label:hover:before {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 0 0 0.3em white, inset 0 0 0 1em #c6c6c6;
+}
+.custom-radio .form-check-input:checked + label:before {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 0 0 0.2em white, inset 0 0 0 1em #ff5900;
 }
 
 /*Hero Section*/
@@ -190,39 +280,46 @@ body {
   right: 3%;
 }
 
-.star-wrapper-one{
+.star-wrapper-one {
   top: 35%;
   right: 40%;
-  opacity: .2;
+  opacity: 0.2;
   color: #ffff;
 }
-.star-wrapper-two{
+.star-wrapper-two {
   top: 50%;
   right: 32%;
-  opacity: .2;
+  opacity: 0.2;
   color: #ffff;
 }
-.star-wrapper-three{
+.star-wrapper-three {
   top: 66%;
   left: 24%;
-  opacity: .2;
+  opacity: 0.2;
   color: #ffff;
 }
-.star-wrapper-four{
+.star-wrapper-four {
   top: 79%;
   right: 16%;
-  opacity: .2;
+  opacity: 0.2;
   color: #ffff;
 }
-.star-wrapper-five{
+.star-wrapper-five {
   top: 13%;
   left: 18%;
-  opacity: .2;
+  opacity: 0.2;
   color: #ffff;
 }
 
 /*Last Comments Section*/
 
-.product-card-name-wrapper{
-border-right: 1px solid #dddd;
+.product-card-name-wrapper {
+  border-right: 1px solid #dddd;
+}
+
+/*Footer*/
+.footer {
+  margin-top: -6rem;
+  padding-top: 9rem;
+  padding-bottom: 3rem;
 }
